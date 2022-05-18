@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ca.utoronto.utm.mcs.UserTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.534 s <<< FAILURE! - in ca.utoronto.utm.mcs.UserTests
+ca.utoronto.utm.mcs.UserTests.userLoginPass  Time elapsed: 0.02 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <400>
+	at ca.utoronto.utm.mcs.UserTests.userLoginPass(UserTests.java:72)
+
+ca.utoronto.utm.mcs.UserTests.userRegisterPass  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <400>
+	at ca.utoronto.utm.mcs.UserTests.userRegisterPass(UserTests.java:49)
+
